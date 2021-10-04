@@ -1,0 +1,149 @@
+.footer{
+    background-color: hsl(233, 26%, 24%);
+    padding: 3.125rem 8%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.footer__images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+
+.footer__logo{
+    margin-bottom: 1.875rem;
+}
+
+.footer__icons{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer__icons li:not(:last-child){
+    margin-right: 0.9375rem;
+}
+
+.footer__icons img{
+    width: 1.4375rem;
+}
+
+.footer__links{
+    list-style: none;
+    text-align: center;
+}
+
+.footer__links a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    line-height: 2.3;
+    font-weight: 300;
+    font-size: 0.9375rem;
+}
+
+.footer__lastDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.875rem;
+}
+
+.footer__btn{
+    margin-bottom: 1.5625rem;
+    white-space: nowrap;
+}
+
+.footer__copyright{
+    color: hsl(233, 8%, 62%);
+    font-size: 0.9375rem;
+    white-space: nowrap;
+}
+
+
+/* Min-width 768PX start */
+
+@media screen and (min-width: 768PX){
+    .footer{
+        grid-template-columns: 30% 15% 15% 20% 20%;
+        grid-template-areas: 
+        "footer__images footer__links--left footer__links--right a footer__lastDiv";
+    }
+
+    .footer__links--left{
+        grid-area: footer__links--left;
+    }
+
+    .footer__links--right{
+        grid-area: footer__links--right;
+    }
+
+    .footer__lastDiv{
+        grid-area: footer__lastDiv;
+        margin-top: 0;
+    }
+
+    .footer__section--first{
+        margin-bottom: 0;
+        flex-direction: row;
+    }
+
+    .footer__section--second{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .footer__images{
+        align-items: flex-start;
+        margin-bottom: 0;
+        width: 30%;
+    }
+
+    .footer__logo{
+        margin-bottom: 3.125rem;
+    }
+
+    .footer__icons{
+        align-items: flex-start;
+    }
+
+    .footer__icons img{
+        width: 1.125rem;
+    }
+
+    .footer__navigation{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .footer__links{
+        text-align: left;
+    }
+
+    .footer__links a{
+        font-size: 0.875rem;
+        color: hsl(233, 8%, 62%);
+    }
+
+    .footer__copyright{
+        text-align: right;
+    }
+
+    .footer__lastDiv{
+        align-items: flex-end;
+    }
+}
+/* Maxwidth 768PX end */
+
+
+/* Min-width 1024 start */
+
+@media screen and (min-width: 1024px){
+    .footer{
+        grid-template-columns: 25% 15% 15% 30% 15%;
+    }
+}
+
+/* Min-width 1024 start */
