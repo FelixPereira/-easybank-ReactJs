@@ -61,6 +61,10 @@
     .articles__innerSection{
         grid-template-columns: 50% 50%;
     }
+
+    .articles__title{
+        text-align: left;
+    }
 }
 /* Maxwidth 768PX end */
 

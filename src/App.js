@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Hero from './Components/Hero/Hero';
-import WhyChoose from './WhyChoose/WhyChoose';
+import WhyChoose from './Components/WhyChoose/WhyChoose';
 import Articles from './Components/Articles/Articles';
 import Footer from './Components/Footer/Footer';
 
