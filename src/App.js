@@ -5,12 +5,22 @@ import Articles from './Components/Articles/Articles';
 import Footer from './Components/Footer/Footer';
 
 class App extends Component {
+    state = {
+        articles: []
+    }
+
+    componentDidMount() {
+        fetch('http://localhost:3000/articles')
+        .then(response => response.json())
+        .then(data => this.setState({articles: data}))
+    }
+
     render() {
         return(
             <main>
                 <Hero />
                 <WhyChoose />
-                <Articles />
+                <Articles articlesAll={this.state.articles} />
                 <Footer />
             </main>
         )

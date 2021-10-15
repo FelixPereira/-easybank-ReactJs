@@ -1,4 +1,5 @@
 import React from 'react';
+import './Articles';
 
 const article = (props) => {
     return(
