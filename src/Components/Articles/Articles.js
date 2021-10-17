@@ -10,7 +10,7 @@ const articles = props => {
             <h2 className="articles__title">Latest Articles</h2>
             <div className="articles__innerSection">
                 {
-                    props.articlesAll.map(article => (
+                    props.articles.map(article => (
                         <article className='articles__item' key={article.id}>
                             <img src='' alt={article.alt} />
                             <div className='articles__content'>

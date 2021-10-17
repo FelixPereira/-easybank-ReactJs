@@ -20,7 +20,7 @@ class App extends Component {
             <main>
                 <Hero />
                 <WhyChoose />
-                <Articles articlesAll={this.state.articles} />
+                <Articles articles={this.state.articles} />
                 <Footer />
             </main>
         )
