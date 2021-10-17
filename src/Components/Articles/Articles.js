@@ -1,6 +1,5 @@
+import React from 'react';
 import Article from './Article';
-import '../../App';
-//import '.../Style.css';
 import './assets/Articles.css';
 
 
@@ -11,14 +10,7 @@ const articles = props => {
             <div className="articles__innerSection">
                 {
                     props.articles.map(article => (
-                        <article className='articles__item' key={article.id}>
-                            <img src='' alt={article.alt} />
-                            <div className='articles__content'>
-                                <small className='articles__author'> {article.author} </small>
-                                <h3 className='articles__title'> {article.title} </h3>
-                                <p className='articles__paragraph'> {article.excert} </p>
-                            </div>
-                        </article>
+                        <Article key={ article.id } article={ article } />
                     ))
                 }
             </div>
