@@ -7,8 +7,7 @@ const whyChoose = () => {
     return(
         <section className="whyChoose" id="whyChoose">
             <h2 className="whyChoose__title">Why choose Easybank?</h2>
-            <p className="whyChoose__paragraph paragraph">We leverage Open Banking to turn your bank account into your financial hub. Control 
-                your finances like never before.</p>
+            <p className="whyChoose__paragraph paragraph">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
             <div className="whyChoose__innerSection">
                 <WhyChooseItem 
                     src='./assets/images/icon-online.svg' 
