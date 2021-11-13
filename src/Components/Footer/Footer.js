@@ -5,31 +5,31 @@ const footer = () => {
   return(
     <footer className="footer">
       <div className="footer__images">
-        <img className="footer__logo" src="assets/images/logo.svg" alt="Logotipo" />
+        <img className="footer__logo" src="images/logo.svg" alt="Logotipo" />
         <ul className="footer__icons">
           <li>
             <a href="#">
-              <img src="assets/images/icon-facebook.svg" alt="Icofacebook" />
+              <img src="images/icon-facebook.svg" alt="Icofacebook" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/images/icon-youtube.svg" alt="Icon youtube" />
+              <img src="images/icon-youtube.svg" alt="Icon youtube" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/images/icon-twitter.svg" alt="Icon twitter" />
+              <img src="images/icon-twitter.svg" alt="Icon twitter" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/images/icon-pinterest.svg" alt="Icon pinterest" />
+              <img src="images/icon-pinterest.svg" alt="Icon pinterest" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="assets/images/icon-instagram.svg" alt="Icon inatagram" />
+              <img src="images/icon-instagram.svg" alt="Icon inatagram" />
             </a>
           </li>
         </ul>

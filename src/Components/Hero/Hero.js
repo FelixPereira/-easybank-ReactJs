@@ -5,7 +5,7 @@ const hero = () => {
     return(
         <section className="hero" id="hero">
             <div className="hero__img">
-                <img src="./assets/images/image-mockups.png" alt="Mockup of cellphones" />
+                <img src='images/bg-intro-mobile.svg' alt='bg-intro-mobile' />
             </div>
             <div className="hero__text">
                 <h2 className="hero__title">Next generation digital banking</h2>
