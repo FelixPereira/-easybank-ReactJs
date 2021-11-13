@@ -1,5 +1,4 @@
-{
-  "articles": [
+const ARTICLES_DB = [
     { 
       "id": "1",
       "src": "images/image-currency.jpg", 
@@ -11,7 +10,7 @@
 
     { 
       "id": 2,
-      "src": "./assets/images/image-restaurant.jpg", 
+      "src": "images/image-restaurant.jpg", 
       "alt": "Restaurant",
       "author": "By Wilson Hutton",
       "title": "Treat yourself without worrying about money",
@@ -20,7 +19,7 @@
 
     { 
       "id": 3,
-      "src": "./assets/images/image-plane.jpg", 
+      "src": "images/image-plane.jpg", 
       "alt": "Plane",
       "author": "By Wilson Hutton",
       "title": "Take your Easybank card wherever you go",
@@ -29,11 +28,12 @@
 
     { 
       "id": "4",
-      "src": "./assets/images/image-confetti.jpg", 
+      "src": "images/image-confetti.jpg", 
       "alt": "Confetti",
       "author": "By Claire Robinson",
       "title": "Our invite-only Beta accounts are now live!",
       "excert": "After a lot of hard work by the whole team, we’re excited to launch our closed beta.It’seasy to request an invite through the site ..." 
     }
   ]
-}
+
+  export default ARTICLES_DB;
