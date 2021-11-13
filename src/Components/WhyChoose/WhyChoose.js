@@ -1,7 +1,7 @@
 import React from 'react';
 import WhyChooseItem from './WhyChooseItem';
 import '../../Style.css';
-import './assets/WhyChoose.css';
+import './whyChoose.css';
 
 const whyChoose = () => {
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from './Article';
-import './assets/Articles.css';
+import './articles.css';
 
 
 const articles = props => {

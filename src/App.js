@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Hero from './Components/Hero/Hero';
-import WhyChoose from './Components/WhyChoose/WhyChoose';
-import Articles from './Components/Articles/Articles';
-import Footer from './Components/Footer/Footer';
+import Hero from './components/hero/Hero';
+import WhyChoose from './components/whyChoose/WhyChoose';
+import Articles from './components/articles/Articles';
+import Footer from './components/footer/Footer';
 
 class App extends Component {
     state = {
