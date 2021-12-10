@@ -1,30 +1,22 @@
-import React, { Component } from 'react';
-import Hero from './Components/Hero/Hero';
-import WhyChoose from './Components/WhyChoose/WhyChoose';
-import Articles from './Components/Articles/Articles';
-import Footer from './Components/Footer/Footer';
+import React, { useState, useEffect } from 'react';
+import GetHomeList from './tmdb/TMDB';
 
-class App extends Component {
-    state = {
-        articles: []
-    }
 
-    componentDidMount() {
-        fetch('http://localhost:3000/articles')
-        .then(response => response.json())
-        .then(data => this.setState({articles: data}))
+const App = () => {
+  useEffect(() => {
+    const loadLists = async () => {
+      const lists = await GetHomeList();
+     console.log(lists)
+     lists.map(list => (
+      console.log(list.items.results[2])
+    ))
     }
+    loadLists();
+  }, []);
 
-    render() {
-        return(
-            <main>
-                <Hero />
-                <WhyChoose />
-                <Articles articles={this.state.articles} />
-                <Footer />
-            </main>
-        )
-    }
+  return(
+    <h2>hello</h2>
+  )
 }
 
 export default App;
