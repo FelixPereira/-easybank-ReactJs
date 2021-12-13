@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+
+import './App.css';
+
 import GetHomeList from './tmdb/TMDB';
 
 import MovieRow from './Components/movierow/MovieRow';

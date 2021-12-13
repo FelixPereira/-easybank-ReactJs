@@ -1,0 +1,29 @@
+.movieRow {
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.movieRow h2 {
+  font-family: sans-serif;
+  color: #fff;
+  padding: 50px 0px 20px 30px  ;
+}
+
+.movieRow--list {
+  width:  9999999px;
+}
+.movieRow--listItem {
+  display: inline-block;
+  width: 150px;
+}
+
+.movieRow--listItem img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.movieRow--listItem img:hover {
+  transform: scale(1);
+}
